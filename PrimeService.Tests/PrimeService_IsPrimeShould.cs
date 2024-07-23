@@ -11,7 +11,7 @@ namespace Prime.UnitTests.Services
     {
       var primeService = new PrimeService();
       var result = primeService.IsPrime(1);
-      Assert.True(result, "1 should not be prime");
+      Assert.False(result, "1 should not be prime");
     }
   }
 }
